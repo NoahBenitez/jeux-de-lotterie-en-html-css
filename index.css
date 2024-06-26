@@ -1,0 +1,59 @@
+nav {
+    border-bottom: 5px solid rgb(248, 3, 183);
+    background-color: rgb(255, 150, 4);
+}
+nav ul{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: y;
+    padding: 10px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background-color: rgb(250, 10, 170);
+    transition: 1s;
+}
+nav li {
+        list-style: none;
+        float: left;
+}
+nav li a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 10%;
+    font-weight: bold;
+
+}
+li a {
+
+
+    display: block;
+    color: rgb(139, 222, 135);
+    text-align: 20px 16px;
+    text-decoration: none;
+}
+body{
+    height: 700px;
+    background-image: url(https://th.bing.com/th/id/OIP.DDPF4dZdO4IeqtADg-e7HwHaEK?w=300&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-size: 100%;
+}
+body{
+    font-family:fantasy;
+    margin: 20px;
+    padding: 0px;
+    font-size: 20px;
+}
+.Rick and Morty {
+    width: 450px;
+}
+
+    .Rick {
+        width: 150px;
+    }

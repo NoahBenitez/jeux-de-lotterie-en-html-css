@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url("../fonts/Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif");
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    text-align: center;
+    margin: 0;
+    min: width 100vh;;
+    background-color: bisque;
+    background-position: 0%center;
+    background-size: cover;
+
+}
+#grille{
+    margin-top: 50px;
+
+}
+#grille input{
+    width: 60px;
+    height: 40px;;
+    font-size: 14pt;
+}
